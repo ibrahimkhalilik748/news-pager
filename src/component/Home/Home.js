@@ -6,7 +6,7 @@ import Marquee from './Marquee';
 const Home = () => {
     const [news, setNews] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/paper')
+        fetch('https://mighty-ridge-57000.herokuapp.com/paper')
             .then(res => res.json())
             .then(data => setNews(data))
 

@@ -9,7 +9,7 @@ const Admin = () => {
             name: data.name,
             email: data.email,
         };
-        const url = `http://localhost:5000/addAdmin`;
+        const url = `https://mighty-ridge-57000.herokuapp.com/addAdmin`;
 
 
         fetch(url, {

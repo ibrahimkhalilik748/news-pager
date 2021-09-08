@@ -19,7 +19,7 @@ const Post = () => {
             imageURL: imageURL,
             servicePrice: data.servicePrice
         };
-        const url = `http://localhost:5000/addPaper`;
+        const url = `https://mighty-ridge-57000.herokuapp.com/addPaper`;
 
         fetch(url, {
             method: 'POST',

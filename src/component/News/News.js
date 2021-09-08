@@ -8,7 +8,7 @@ const News = (props) => {
     console.log(_id)
     const [news, setNews] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/paper/${_id}`)
+        fetch(`https://mighty-ridge-57000.herokuapp.com/paper/${_id}`)
             .then(res => res.json())
             .then(data => setNews(data))
         // console.log(data)

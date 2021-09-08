@@ -8,7 +8,7 @@ const Profile = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
     const [admin, setAdmin] = useState(false)
     useEffect(() => {
-        fetch(`http://localhost:5000/isAdmin`,
+        fetch(`https://mighty-ridge-57000.herokuapp.com/isAdmin`,
             {
                 method: 'POST',
                 headers: { 'content-type': 'application/json' },
