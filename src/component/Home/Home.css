@@ -1,0 +1,11 @@
+.home{
+    margin-top:100px;
+}
+marquee{
+    width:100%;
+    background-color: skyblue;
+    /* background-color: #1B86FB; */
+    height:40px;
+    color: white;
+    font-weight: 500;
+}
